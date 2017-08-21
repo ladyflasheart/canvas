@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Flags</title>
+</head>
+<body>
+
+<ul>
+    <li>Proportions: H 13 : W 15</li>
+    <li>Black: #000000</li>
+    <li>Yellow: #FFE936</li>
+    <li>Red: #FF0F21</li>
+</ul>
+
+<canvas id="belgium" width="300" height="260"></canvas>
+<script src="drawing.js"></script>
+<script type="text/javascript">
+
+    context = getContext("belgium")
+
+    context.fillRect(0,0,100,260)
+    context.fillStyle = "#FFE936"
+    context.fillRect(100,0,100,260)
+    context.fillStyle = "#FF0F21"
+    context.fillRect(200,0,100,260)
+
+</script>
+
+</body>
+</html>
